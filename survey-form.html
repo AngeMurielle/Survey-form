@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> survey form </title>
+    </head>
+    <body>
+        <h1> Waste management system of code reactor </h1>
+        <form action="" method="post">
+            <h2> survey form </h2>
+            <label> First name:</label>
+            <input type="text" name="fname" placeholder="first name"><br>
+            <label> Last name:</label>
+            <input type="text" name="lname"><br>
+            <label> Email:</label>
+            <input type="email" name="email" required ><br>
+            <label> Date of birth </label>
+            <input type="date"name="bod"><br>
+            <label> Occupation:</label>
+            <input type="text" name="occupation"><br>
+            <label> Your view of the using technology to improve sanitation </label>
+            <textarea> </textarea><br>
+            <label> Days of the week </label>
+            <select>
+                <option> Monday </option>
+                <option> Tuesday </option>
+                <option> Wednesday </option>
+                <option> Thursday </option>
+                <option> Friday </option>
+                <option> Saturday </option>
+                <option> Sunday </option>
+            </select><br>
+        
+            
+                <label> solution using technology to improve sanitation</label>
+                <select>
+                        <option value=""> select a solution</option>
+                         <option value="A">A. IoT sensors:implement internet of things sensors in waste bins.</option>
+                         <option value="B">B. Smart waste sorting:use automated sorting technologies such as optical sensors,AI-powered robots.</option>
+                         <option value="C">C. Automated waste collection systems:it will use an underground containers to transport waste.</option>
+                         <option value="D">D. Water treatment technologies:implement advanced water treatment technologies.</option>
+                         <option value="E">E. Mobile Apps for reporting:Develop mobile applications that allow residents to report sanitation issues.</option>
+
+                </select>
+            </select><br>
+            <label> Agreement:I agree to the terms </label>
+            <input type="checkbox" name="agree"><br>
+            <!--commit Button-->
+            <button type="button"
+            onclick="commitfunction()">commit</button><br>
+
+            <!--cancel Button-->
+            <button type="button"
+            onclick="cancelfunction()">Cancel</button>
+            
+          </form>
+    </body>
+</html>
